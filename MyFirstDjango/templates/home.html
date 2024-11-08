@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sasi Vaibhav - Personal Website</title>
+    <style>
+        /* Global Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        .header {
+            background: linear-gradient(135deg, #1e90ff, #4facfe);
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        .header span.institute {
+            display: block;
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background: #ffffff;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+        .container:hover {
+            transform: scale(1.01);
+        }
+
+        /* Section Titles */
+        h2 {
+            color: #1e90ff;
+            font-size: 1.8em;
+            margin: 20px 0 15px;
+            position: relative;
+            padding-bottom: 8px;
+        }
+        h2::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background: #1e90ff;
+            margin-top: 5px;
+            border-radius: 3px;
+        }
+
+        /* Profile Details */
+        .profile-info p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #555;
+        }
+        .profile-info p strong {
+            color: #333;
+        }
+
+        /* Skills, Achievements, and Experience Lists */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            font-size: 1.1em;
+            color: #555;
+            transition: all 0.2s ease;
+        }
+        ul li:hover {
+            color: #1e90ff;
+        }
+
+        /* Project Styling */
+        .project {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: #f7f9fc;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+        .project h3 {
+            font-size: 1.5em;
+            color: #1e90ff;
+            margin-bottom: 8px;
+        }
+        .project p {
+            margin-top: 5px;
+            color: #555;
+        }
+        .project-link {
+            color: #1e90ff;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+            transition: color 0.2s ease;
+        }
+        .project-link:hover {
+            color: #007acc;
+        }
+
+        /* Button Style */
+        .button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #1e90ff;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: background-color 0.2s ease;
+        }
+        .button:hover {
+            background-color: #007acc;
+        }
+
+        /* Footer Style */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 15px;
+            font-size: 0.9em;
+            color: #777;
+        }
+        footer p {
+            margin-top: 5px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <div class="header">
+        <h1>Sasi Vaibhav</h1>
+        <span class="institute">Institute: KLH University</span>
+        <span class="institute">Course: B.Tech (AI & DS)</span>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Profile Section -->
+        <h2>About Me</h2>
+        <div class="profile-info">
+            <p>Aspiring AI & DS professional, passionate about leveraging technology to solve real-world problems.</p>
+            <p><strong>Email:</strong> 2310089088@klh.edu.in</p>
+            <p><strong>Phone:</strong> 9567754</p>
+            <p><strong>Location:</strong> Hyderabad</p>
+        </div>
+
+        <!-- Skills Section -->
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Java</strong> - Intermediate</li>
+            <li><strong>Python</strong> - Advanced</li>
+            <li><strong>Machine Learning</strong> - Intermediate</li>
+            <li><strong>Data Analysis</strong> - Intermediate</li>
+            <li><strong>HTML & CSS</strong> - Intermediate</li>
+            <li><strong>SQL</strong> - Intermediate</li>
+        </ul>
+
+        <!-- Achievements Section -->
+        <h2>Achievements</h2>
+        <ul>
+            <li>Top scorer in AI course at KLH University</li>
+            <li>Participated in the Coding Championship</li>
+            <li>Participated in Hackathorn-AI in KLH</li>
+            <li>Won 3rd in State level Basketball Championship </li>
+        </ul>
+
+        <!-- Education Section -->
+        <h2>Education</h2>
+        <ul>
+            <li>B.Tech in Artificial Intelligence & Data Science, KLH University</li>
+            <li>BS Artificial Intelligence & Data Science, IIT Madras</li>
+            <li>Certification in Cloud, AWS</li>
+        </ul>
+
+        <!-- Experience Section -->
+        <h2>Experience</h2>
+        <ul>
+            <li>
+                <strong>Intern</strong> at Tech Company (June 2023 - August 2023)
+                <p>Worked on developing machine learning models for data analysis.</p>
+            </li>
+        </ul>
+
+        <!-- Projects Section -->
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>AI Chatbot</h3>
+            <p>Developed a medical website (Medicare) using Django.</p>
+            <a href="https://github.com/yourusername/aichatbot" class="project-link">Project Link</a>
+        </div>
+        <div class="project">
+            <h3>Data Analysis Project</h3>
+            <p>Conducted data analysis on large datasets using Python.</p>
+            <a href="https://github.com/yourusername/dataanalysis" class="project-link">Project Link</a>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            &copy; 2023 Sasi Vaibhav - All Rights Reserved
+            <p>Connect with me on LinkedIn or GitHub for more information.</p>
+        </footer>
+    </div>
+</body>
+</html>
